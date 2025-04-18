@@ -73,6 +73,14 @@ to fetch historical stock data and utilizes the [OpenAI API](https://platform.op
      "analysis": "Based on the past 6 days, Reliance Industries has shown..."
    }
    ```
+---
+## 🔗 Frontend Repository
+
+The frontend for this project is built using **React** and is hosted in a separate repository.
+
+👉 [View Frontend Code on GitHub](https://github.com/darshi3/aistock.git)
+
+Make sure to clone and run the frontend along with this backend to see the full functionality of the Stock Analysis Application.
 
 
 
