@@ -53,7 +53,7 @@ to fetch historical stock data and utilizes the [OpenAI API](https://platform.op
 
    The backend service will start on `http://localhost:8082`.
 
-## 📬 API Endpoints
+##  API Endpoints
 
 - **POST `/api/analyze`**: Accepts a JSON payload with the stock symbol and number of days, returns the AI-generated analysis.
 
