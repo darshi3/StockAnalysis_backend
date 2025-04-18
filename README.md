@@ -40,7 +40,7 @@ to fetch historical stock data and utilizes the [OpenAI API](https://platform.op
    Create a file named `application.properties` in the `src/main/resources` directory and add your API keys:
 
    ```properties
-   alpha.vantage.api.key=YOUR_ALPHA_VANTAGE_API_KEY
+   api.key=YOUR_ALPHA_VANTAGE_API_KEY
    openai.api.key=YOUR_OPENAI_API_KEY
    ```
 
