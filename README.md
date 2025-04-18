@@ -4,14 +4,14 @@
 This is the backend service for the **StockAnalysis** application, built with Java and Spring Boot. It integrates with the [Alpha Vantage API](https://www.alphavantage.co/) 
 to fetch historical stock data and utilizes the [OpenAI API](https://platform.openai.com/) to generate AI-driven analyses of selected Indian stocks.
 
-## 🧠 Features
+##  Features
 
 - **Stock Selection**: Users can select any Indian stock and specify the number of past days for analysis.
 - **Data Retrieval**: Fetches historical stock data (typically up to the previous day) from Alpha Vantage based on user input.
 - **AI-Powered Analysis**: Sends the retrieved data to OpenAI's GPT model to generate insightful stock analyses.
 - **API Communication**: Designed to work seamlessly with the Angular frontend via RESTful APIs.
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **Java 21**
 - **Spring Boot 3.x**
@@ -31,8 +31,8 @@ to fetch historical stock data and utilizes the [OpenAI API](https://platform.op
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/stockanalysis-backend.git
-   cd stockanalysis-backend
+   git clone https://github.com/darshi3/StockAnalysis_backend.git
+   cd StockAnalysis_backend
    ```
 
 2. **Configure API Keys**:
@@ -51,7 +51,7 @@ to fetch historical stock data and utilizes the [OpenAI API](https://platform.op
    mvn spring-boot:run
    ```
 
-   The backend service will start on `http://localhost:8080`.
+   The backend service will start on `http://localhost:8082`.
 
 ## 📬 API Endpoints
 
