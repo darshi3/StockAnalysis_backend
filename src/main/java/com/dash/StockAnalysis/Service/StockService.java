@@ -52,7 +52,6 @@ public class StockService {
 		log.info("Symbol = " + stock.getSymbol());
 		log.info("Days = " + stock.getDays());
 
-		// String apiKey = "50M3AP1K3Y";
 		int timeout = 3000;
 		AlphaVantageConnector apiConnector = new AlphaVantageConnector(apiKey, timeout);
 		TimeSeries stockTimeSeries = new TimeSeries(apiConnector);
